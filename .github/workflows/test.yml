@@ -13,7 +13,7 @@ on:
 
 jobs:
   setup-job: # Name of the workflow
-    on: ubuntu-latest
+    runs-on: ubuntu-latest
     # To set-up testing on multiple platforom, the matrix srtategy is used
     strategy:
       matrix:
