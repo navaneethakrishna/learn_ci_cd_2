@@ -3,10 +3,11 @@ name: Lint python code
 on:
     pull_request:
         branches: 
-            - master
+            - github-actions-tutorial
     push:
         branches: 
-            - master
+            - github-actions-tutorial
+    # This is used to restart the workflow in case of internal errors such as expired API keys
     workflow_dispatch: 
 
 jobs:
