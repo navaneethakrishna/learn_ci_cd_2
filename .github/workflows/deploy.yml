@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-  if: github.ref =~ /^refs\/tags\/\d+\.\d+\.\d+$/
+    if: github.ref =~ /^refs\/tags\/\d+\.\d+\.\d+$/
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
