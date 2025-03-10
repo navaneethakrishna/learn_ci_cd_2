@@ -12,7 +12,7 @@ on:
   workflow_dispatch: 
 
 jobs:
-  setup-job: # Name of the workflow
+  setup-and-test: # Name of the workflow
     runs-on: ubuntu-latest
     # To set-up testing on multiple platforom, the matrix srtategy is used
     strategy:
